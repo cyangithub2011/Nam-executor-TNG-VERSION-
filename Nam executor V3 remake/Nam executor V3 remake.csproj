@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Nam_executor_V3_remake</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Nam executor %281%29.png" />
+    <None Remove="Nam executor.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ForlornApi">
+      <HintPath>bin\Debug\forlorn\ForlornApi.dll</HintPath>
+    </Reference>
+    <Reference Include="TNGAPI">
+      <HintPath>..\..\..\download 2024\TNGAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Nam executor (1).png" />
+    <Resource Include="Nam executor.png" />
+  </ItemGroup>
+
+</Project>
